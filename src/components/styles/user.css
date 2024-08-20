@@ -1,0 +1,61 @@
+/* تعيين خلفية للـ body */
+body {
+  background-image: url("../../assets/خلفيات-كتب-52.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* ضمان تغطية كامل ارتفاع الصفحة */
+}
+
+/* تعيين خلفية للصندوق الذي يحتوي على المحتوى */
+.container {
+  padding: 20px 0;
+  color: #fff;
+}
+
+/* تحسين مظهر البطاقات */
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* تحسين مظهر النص داخل البطاقات */
+.card-body {
+  color: #333;
+}
+
+/* تحسين مظهر نموذج تحرير المراجعة */
+.edit-review-form {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+/* تحسين مظهر الأزرار */
+.btn {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
